@@ -3,9 +3,7 @@ package org.berserk4121.dailyChallenges;
 // Space Complexity O(n)
 public class Solution279 {
     public int numSquares(int n) {
-        ;
         return find(n, new Integer[n+1]);
-
     }
     int find(int n, Integer[] memo){
         if(n == 0) return 0;
