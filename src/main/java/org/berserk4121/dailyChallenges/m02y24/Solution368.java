@@ -1,4 +1,4 @@
-package org.berserk4121.dailyChallenges;
+package org.berserk4121.dailyChallenges.m02y24;
 
 import java.util.ArrayList;
 import java.util.Arrays;

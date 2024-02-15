@@ -1,4 +1,4 @@
-package org.berserk4121.dailyChallenges;
+package org.berserk4121.dailyChallenges.m02y24;
 // Time complexity O(n * sqrt(n))
 // Space Complexity O(n)
 public class Solution279 {

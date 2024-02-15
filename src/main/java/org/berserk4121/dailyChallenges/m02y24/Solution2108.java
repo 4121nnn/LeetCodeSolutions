@@ -1,4 +1,4 @@
-package org.berserk4121.dailyChallenges;
+package org.berserk4121.dailyChallenges.m02y24;
 
 //Time complexity O((n/2) * m) , n is max length of word in array, m is array length
 //Space complexity O(1)
