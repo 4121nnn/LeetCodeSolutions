@@ -2,7 +2,6 @@ package org.berserk4121;
 
 import java.util.Arrays;
 import java.util.PriorityQueue;
-import java.util.Scanner;
 
 class H {
     public static void p(int i){ System.out.println(i); }
@@ -19,12 +18,13 @@ class H {
     public static <T> void p(T a) { System.out.println(a); }
     public static <T> void p(T[] a) { System.out.println(Arrays.toString(a)); }
     public static <T> void p(T[][] m) { for(T[] a : m)  System.out.println(Arrays.toString(a)); }
-    public static void p(PriorityQueue<int[]> pq){
-        for(int[] a : pq) p(a);
-    }
+    public static void p(PriorityQueue<int[]> pq){ for(int[] a : pq) p(a); }
     public static void p(){ System.out.println("---------------------------"); }
 
 }
+
+
+
 class A{
     public static void main(String[] args) {
 
