@@ -4,8 +4,9 @@ public class Solution268 {
     //TC O(n)
     //SC O(1)
     public int missingNumber(int[] nums) {
-        int ans = 0;
+      
         /*
+        int ans = 0;
         for(int i = 1; i <= nums.length; i++)
             ans ^= i;
         for(int i : nums)
