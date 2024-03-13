@@ -1,3 +1,6 @@
+package org.berserk4121.dailyChallenges.m03y24;
+
+
 public class Solution3005 {
     //TC O(n)
     //SC O(n)
