@@ -1,3 +1,7 @@
+package org.berserk4121.dailyChallenges.m03y24;
+
+import org.berserk4121.ListNode;
+
 public class Solution1669 {
     //TC O(n + m);
     //SC O(1);
