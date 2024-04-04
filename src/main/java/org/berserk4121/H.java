@@ -22,7 +22,7 @@ class H {
     public static void p(){ System.out.println("---------------------------"); }
 
 }
-class A {
+class B {
     public void p(int i){ System.out.println(i); }
     public void p(char c){ System.out.println(c); }
     public void p(long l){ System.out.println(l); }

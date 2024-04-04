@@ -6,7 +6,7 @@ public class Solution1669 {
     //TC O(n + m);
     //SC O(1);
     public ListNode mergeInBetween(ListNode list1, int a, int b, ListNode list2) {
-        ListNode l1 = list1, l2 = null, l3 = null, head = list1;
+        ListNode l1 = list1, l2 = null, head = list1;
         int i = 0;
         while(i != a-1){
             l1 = l1.next;
