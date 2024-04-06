@@ -1,3 +1,7 @@
+package org.berserk4121.dailyChallenges.m04y24;
+
+import java.util.LinkedList;
+
 public class Solution1249 {
     //TC O(n)
     //SC O(n)
