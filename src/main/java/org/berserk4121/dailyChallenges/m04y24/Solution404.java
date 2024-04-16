@@ -1,5 +1,7 @@
 package org.berserk4121.dailyChallenges.m04y24;
 
+import org.berserk4121.TreeNode;
+
 public class Solution404 {
     //TC O(n)
     //SC o(h) h - height of tree

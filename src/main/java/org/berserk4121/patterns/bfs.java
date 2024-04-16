@@ -3,7 +3,9 @@ package org.berserk4121.patterns;
 import java.util.ArrayDeque;
 import java.util.Deque;
 
-import javax.swing.tree.TreeNode;
+import org.berserk4121.TreeNode;
+
+
 
 public class bfs {
     
