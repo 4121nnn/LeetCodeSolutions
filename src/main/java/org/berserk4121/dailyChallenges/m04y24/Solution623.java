@@ -31,6 +31,7 @@ public class Solution623 {
             
         }
         return root;
+    }
 }
 /*
 623. Add One Row to Tree
