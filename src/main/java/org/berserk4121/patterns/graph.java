@@ -1,13 +1,28 @@
 package org.berserk4121.patterns;
 
 import java.util.ArrayDeque;
+import java.util.ArrayList;
 import java.util.Deque;
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
 public class graph {
+    Map<Integer, List<Integer>> createGraph(int[][] edges){
+        int n = edges.length;
+        Map<Integer,List<Integer>> graph = new HashMap<>();
+        
+        for(int i = 0 ; i < n ; i++) graph.put(i, new ArrayList());
+         //construct graph, add bidirectional vertex
+        for(int[] edge : edges){
+           graph.get(edge[0]).add(edge[1]);
+           graph.get(edge[1]).add(edge[0]);
+        }
+        return graph;
+    
+    }
     
     //graph traversal
     void dfs(Map<Integer, List<Integer>> graph, int cur, Set<Integer> visited) {
